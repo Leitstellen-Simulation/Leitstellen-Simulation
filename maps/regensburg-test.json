@@ -1,0 +1,268 @@
+{
+  "id": "regensburg-test",
+  "name": "Regensburg Test",
+  "weather": "Leichter Regen, 12 C",
+  "mapCenter": [
+    49.003448667656286,
+    12.068481445312502
+  ],
+  "zoom": 14,
+  "coverageGeoJson": {
+    "type": "Feature",
+    "properties": {
+      "name": "Stadt Regensburg Einsatzgebiet"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            12.018,
+            49.05
+          ],
+          [
+            12.056,
+            49.081
+          ],
+          [
+            12.135,
+            49.078
+          ],
+          [
+            12.19,
+            49.042
+          ],
+          [
+            12.178,
+            48.985
+          ],
+          [
+            12.116,
+            48.965
+          ],
+          [
+            12.043,
+            48.974
+          ],
+          [
+            12.018,
+            49.05
+          ]
+        ]
+      ]
+    }
+  },
+  "stations": [
+    {
+      "id": "rkt-west",
+      "label": "RKT West",
+      "address": "Ziegetsdorfer Straße 50",
+      "lat": 49.002707,
+      "lng": 12.061146,
+      "vehicles": {
+        "RTW": 1
+      },
+      "units": [
+        {
+          "id": "rtw-rettung-regensburg-2-1-1778579830892",
+          "type": "RTW",
+          "name": "Rettung Regensburg 2/1",
+          "fullName": "Rettung Regensburg 2/1",
+          "shortName": "RT R 2/1",
+          "shift": "7-19"
+        }
+      ]
+    },
+    {
+      "id": "malteser-bruderwoehrd",
+      "label": "Malteser Bruderwöhrdstraße",
+      "address": "Bruderwöhrdstraße 3",
+      "lat": 49.0218,
+      "lng": 12.1182,
+      "vehicles": {
+        "RTW": 1
+      },
+      "units": [
+        {
+          "type": "RTW",
+          "name": "Rettung Regensburg 3/1",
+          "shortName": "RT R 3/1",
+          "shift": "7-19"
+        }
+      ]
+    },
+    {
+      "id": "brk-straubinger",
+      "label": "BRK Rettungswache Straubinger Straße",
+      "address": "Hoher-Kreuz-Weg 7",
+      "lat": 49.0191,
+      "lng": 12.1441,
+      "vehicles": {
+        "RTW": 3,
+        "KTW": 1
+      },
+      "units": [
+        {
+          "type": "RTW",
+          "name": "Rettung Regensburg 71/1",
+          "shortName": "RT R 71/1",
+          "shift": "7-19"
+        },
+        {
+          "type": "RTW",
+          "name": "Rettung Regensburg 71/2",
+          "shortName": "RT R 71/2",
+          "shift": "19-7"
+        },
+        {
+          "type": "RTW",
+          "name": "Rettung Regensburg 71/3",
+          "shortName": "RT R 71/3",
+          "shift": "7-19"
+        },
+        {
+          "type": "KTW",
+          "name": "Krankentransport Regensburg 72/1",
+          "shortName": "KT R 72/1",
+          "shift": "8-18"
+        }
+      ]
+    },
+    {
+      "id": "johanniter-haslbach",
+      "label": "Johanniter Haslbach",
+      "address": "Wernberger Straße 1",
+      "lat": 49.0558,
+      "lng": 12.13,
+      "vehicles": {
+        "RTW": 1
+      },
+      "units": [
+        {
+          "type": "RTW",
+          "name": "Akkon Regensburg 73/1",
+          "shortName": "AK R 73/1",
+          "shift": "7-19"
+        }
+      ]
+    },
+    {
+      "id": "nef-ukr",
+      "label": "NEF Universitätsklinikum",
+      "address": "Franz-Josef-Strauß-Allee 11",
+      "lat": 48.9879,
+      "lng": 12.09,
+      "vehicles": {
+        "NEF": 1
+      },
+      "units": [
+        {
+          "type": "NEF",
+          "name": "Florian Regensburg 76/1",
+          "shortName": "FL R 76/1",
+          "shift": "24h"
+        }
+      ]
+    },
+    {
+      "id": "nef-barmherzige",
+      "label": "NEF Barmherzige Brüder",
+      "address": "Prüfeninger Straße 86",
+      "lat": 49.0162,
+      "lng": 12.0663,
+      "vehicles": {
+        "NEF": 1
+      },
+      "units": [
+        {
+          "type": "NEF",
+          "name": "Florian Regensburg 76/2",
+          "shortName": "FL R 76/2",
+          "shift": "24h"
+        }
+      ]
+    }
+  ],
+  "hospitals": [
+    {
+      "id": "kh-ukr",
+      "label": "Universitätsklinikum Regensburg",
+      "address": "Franz-Josef-Strauß-Allee 11",
+      "lat": 48.9879,
+      "lng": 12.09,
+      "departments": [
+        "emergency",
+        "cardiology",
+        "neurology",
+        "trauma",
+        "pediatrics",
+        "obstetrics",
+        "internal"
+      ]
+    },
+    {
+      "id": "kh-barmherzige",
+      "label": "Krankenhaus Barmherzige Brüder",
+      "address": "Prüfeninger Straße 86",
+      "lat": 49.0162,
+      "lng": 12.0663,
+      "departments": [
+        "emergency",
+        "cardiology",
+        "neurology",
+        "trauma",
+        "internal"
+      ]
+    },
+    {
+      "id": "kh-st-josef",
+      "label": "Caritas-Krankenhaus St. Josef",
+      "address": "Landshuter Straße 65",
+      "lat": 49.0049,
+      "lng": 12.1124,
+      "departments": [
+        "emergency",
+        "obstetrics",
+        "internal"
+      ]
+    },
+    {
+      "id": "kh-st-hedwig",
+      "label": "KUNO Klinik St. Hedwig",
+      "address": "Steinmetzstraße 1-3",
+      "lat": 49.0188,
+      "lng": 12.0838,
+      "departments": [
+        "emergency",
+        "pediatrics",
+        "obstetrics"
+      ]
+    },
+    {
+      "id": "kh-medbo",
+      "label": "medbo Bezirksklinikum Regensburg",
+      "address": "Universitätsstraße 84",
+      "lat": 48.9919,
+      "lng": 12.0914,
+      "departments": [
+        "psychiatry"
+      ]
+    }
+  ],
+  "poi": [
+    {
+      "id": "poi-dialyse",
+      "type": "dialysis",
+      "label": "Dialysezentrum Regensburg",
+      "lat": 49.0116,
+      "lng": 12.1144
+    },
+    {
+      "id": "poi-praxis",
+      "type": "practice",
+      "label": "Hausarztpraxis Altstadt",
+      "lat": 49.0199,
+      "lng": 12.0965
+    }
+  ]
+}
